@@ -86,7 +86,7 @@ UIS.InputBegan:Connect(function(input,gp)
                 Size = openSize
             }):Play()
             
-            task.wait(0.25)
+            task.wait(1.00)
             BtnBahan.Visible = true
             BtnRS.Visible = true
         end
