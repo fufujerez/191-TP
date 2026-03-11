@@ -44,11 +44,11 @@ BtnRS.TextColor3 = Color3.fromRGB(255,255,255)
 
 -- Function TP
 function TP_MS_BAHAN()
-    player.Character.HumanoidRootPart.CFrame = CFrame.new(523.52,3.59,615.07)
+    player.Character.HumanoidRootPart.CFrame = CFrame.new(522.07,22.62,616.33)
 end
 
 function TP_RS()
-    player.Character.HumanoidRootPart.CFrame = CFrame.new(1063.96,3.36,438.53)
+    player.Character.HumanoidRootPart.CFrame = CFrame.new(1064.96,10.46,419.41)
 end
 
 BtnBahan.MouseButton1Click:Connect(TP_MS_BAHAN)
