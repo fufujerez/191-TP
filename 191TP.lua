@@ -48,7 +48,7 @@ Title.Parent = TitleBar
 Title.Size = UDim2.new(1,-40,1,0)
 Title.Position = UDim2.new(0,10,0,0)
 Title.BackgroundTransparency = 1
-Title.Text = "! 191 TP HUB !"
+Title.Text = "! 191 STORE !"
 Title.TextColor3 = Color3.fromRGB(255,255,255)
 Title.TextXAlignment = Enum.TextXAlignment.Left
 Title.Font = Enum.Font.GothamBold
@@ -134,7 +134,7 @@ SettingsContent.Size = UDim2.new(1,0,1,0)
 SettingsContent.BackgroundTransparency = 1
 SettingsContent.Visible = false
 
--- TP Buttons (UPDATED WITH NORMAL FONT)
+-- TP Buttons
 local BtnBahan = Instance.new("TextButton")
 BtnBahan.Parent = TPContent
 BtnBahan.Size = UDim2.new(1,-20,0,70)
@@ -162,10 +162,10 @@ BahanText.Parent = BtnBahan
 BahanText.Size = UDim2.new(1,-60,0,30)
 BahanText.Position = UDim2.new(0,50,0,10)
 BahanText.BackgroundTransparency = 1
-BahanText.Text = "TP MS BAHAN"  -- NORMAL FONT, NO BOLD
+BahanText.Text = "TP MS BAHAN"
 BahanText.TextColor3 = Color3.fromRGB(255,255,255)
 BahanText.TextXAlignment = Enum.TextXAlignment.Left
-BahanText.Font = Enum.Font.Gotham  -- NORMAL FONT (not bold)
+BahanText.Font = Enum.Font.GothamBold
 BahanText.TextSize = 16
 
 local BahanDesc = Instance.new("TextLabel")
@@ -176,7 +176,7 @@ BahanDesc.BackgroundTransparency = 1
 BahanDesc.Text = "Material Storage"
 BahanDesc.TextColor3 = Color3.fromRGB(180,180,180)
 BahanDesc.TextXAlignment = Enum.TextXAlignment.Left
-BahanDesc.Font = Enum.Font.Gotham  -- NORMAL FONT
+BahanDesc.Font = Enum.Font.Gotham
 BahanDesc.TextSize = 12
 
 local BtnRS = Instance.new("TextButton")
@@ -206,10 +206,10 @@ RSText.Parent = BtnRS
 RSText.Size = UDim2.new(1,-60,0,30)
 RSText.Position = UDim2.new(0,50,0,10)
 RSText.BackgroundTransparency = 1
-RSText.Text = "TP RS"  -- NORMAL FONT, NO BOLD
+RSText.Text = "TP RS"
 RSText.TextColor3 = Color3.fromRGB(255,255,255)
 RSText.TextXAlignment = Enum.TextXAlignment.Left
-RSText.Font = Enum.Font.Gotham  -- NORMAL FONT (not bold)
+RSText.Font = Enum.Font.GothamBold
 RSText.TextSize = 16
 
 local RSDesc = Instance.new("TextLabel")
@@ -220,7 +220,7 @@ RSDesc.BackgroundTransparency = 1
 RSDesc.Text = "Hospital"
 RSDesc.TextColor3 = Color3.fromRGB(180,180,180)
 RSDesc.TextXAlignment = Enum.TextXAlignment.Left
-RSDesc.Font = Enum.Font.Gotham  -- NORMAL FONT
+RSDesc.Font = Enum.Font.Gotham
 RSDesc.TextSize = 12
 
 -- Settings Content
@@ -363,7 +363,7 @@ Welcome.Parent = ScreenGui
 Welcome.Size = UDim2.new(0,250,0,50)
 Welcome.Position = UDim2.new(0.5,-125,0.5,-25)
 Welcome.BackgroundColor3 = Color3.fromRGB(25,25,35)
-Welcome.Text = "191 TP HUB Loaded!"
+Welcome.Text = "𝟏𝟗𝟏 𝐓𝐏 𝐇𝐔𝐁 Loaded!"
 Welcome.TextColor3 = Color3.fromRGB(0,255,100)
 Welcome.Font = Enum.Font.GothamBold
 Welcome.TextSize = 18
