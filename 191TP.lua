@@ -20,7 +20,7 @@ local Title = Instance.new("TextLabel")
 Title.Parent = Frame
 Title.Size = UDim2.new(1,0,0,30)
 Title.BackgroundTransparency = 1
-Title.Text = "191 TP"
+Title.Text = "! 𝟏𝟗𝟏 𝐓𝐏 !"
 Title.TextColor3 = Color3.fromRGB(255,255,255)
 Title.TextScaled = true
 
@@ -29,7 +29,7 @@ local BtnBahan = Instance.new("TextButton")
 BtnBahan.Parent = Frame
 BtnBahan.Size = UDim2.new(1,-20,0,40)
 BtnBahan.Position = UDim2.new(0,10,0,40)
-BtnBahan.Text = "TP Marshmallow Bahan"
+BtnBahan.Text = "𝐓𝐏 𝐌𝐒 ⚒️"
 BtnBahan.BackgroundColor3 = Color3.fromRGB(40,40,40)
 BtnBahan.TextColor3 = Color3.fromRGB(255,255,255)
 
@@ -38,7 +38,7 @@ local BtnRS = Instance.new("TextButton")
 BtnRS.Parent = Frame
 BtnRS.Size = UDim2.new(1,-20,0,40)
 BtnRS.Position = UDim2.new(0,10,0,90)
-BtnRS.Text = "TP RS"
+BtnRS.Text = "𝐓𝐏 𝐑𝐒 🏥"
 BtnRS.BackgroundColor3 = Color3.fromRGB(40,40,40)
 BtnRS.TextColor3 = Color3.fromRGB(255,255,255)
 
@@ -86,9 +86,11 @@ UIS.InputBegan:Connect(function(input,gp)
                 Size = openSize
             }):Play()
             
-            task.wait(1.00)
+            task.wait(1)
             BtnBahan.Visible = true
             BtnRS.Visible = true
         end
     end
 end)
+
+✅ Hasilnya nanti di GUI:
